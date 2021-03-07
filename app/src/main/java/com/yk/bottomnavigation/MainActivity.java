@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
      *
      * @param message 提示的信息
      */
-    public void showToast(CharSequence message) {
+    private void showToast(CharSequence message) {
         if (message != null) {
             Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
         }
